@@ -18,7 +18,8 @@ function volume_sphere(event) {
   else {
     // If the input is not a valid number, display an error message
     //alert('Please enter a valid number for the radius.');
-	  volumeInput.value = "";
+	  const volumeInput = document.getElementById('volume');
+    volumeInput.value = "NaN";
   }
 }
 
