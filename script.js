@@ -1,4 +1,4 @@
-function volume_sphere() {
+function volume_sphere(event) {
     //Write your code here
 	event.preventDefault();
 	const radiusInput=document.getElementById("radius");
@@ -8,9 +8,9 @@ function volume_sphere() {
 		const volumeInput=document.getElementById("volume");
 		volumeInput.value=volume.toFixed(2);
 	}
-	else {
-    // If the input is not a valid number, display an error message
-    alert('Please enter a valid number for the radius.');
+	// else {
+ //    // If the input is not a valid number, display an error message
+ //    alert('Please enter a valid number for the radius.');
   }
 } 
 
