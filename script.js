@@ -14,10 +14,11 @@ function volume_sphere(event) {
     // Display the calculated volume in the volume input field
     const volumeInput = document.getElementById('volume');
     volumeInput.value = volume.toFixed(2); // Display the result with 2 decimal places
-  } else {
-    // If the input is not a valid number, display an error message
-    alert('Please enter a valid number for the radius.');
-  }
+  } 
+  // else {
+  //   // If the input is not a valid number, display an error message
+  //   alert('Please enter a valid number for the radius.');
+  // }
 }
 
 // Attach the form submit event handler to the form with the id "MyForm"
