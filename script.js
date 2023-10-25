@@ -2,7 +2,7 @@ function volume_sphere() {
     //Write your code here
 	event.preventDefault();
 	const radiusInput=document.getElementById("radius");
-	const radius=radiusInput.value;
+	const radius=parseFloat(radiusInput.value);
 	if(!isNaN(radius)){
 		const volume=(4/3)*Math.PI*Math.pow(radius,3);
 		const volumeInput=document.getElementById("volume");
