@@ -13,7 +13,7 @@ function volume_sphere(event) {
 
     // Display the calculated volume in the volume input field
     const volumeInput = document.getElementById('volume');
-    volumeInput.value = volume; // Display the result with 2 decimal places
+    volumeInput.value = volume.toFixed(4); // Display the result with 2 decimal places
   } 
   // else {
   //   // If the input is not a valid number, display an error message
