@@ -6,7 +6,7 @@ function volume_sphere(event) {
 	if(!isNaN(radius)){
 		const volume=(4/3)*Math.PI*Math.pow(radius,3);
 		const volumeInput=document.getElementById("volume");
-		volumeInput.value=volume.toFixed(2);
+		volumeInput.value=volume;
 	}
 	// else {
  //    // If the input is not a valid number, display an error message
